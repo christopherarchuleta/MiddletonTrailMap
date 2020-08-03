@@ -100,18 +100,40 @@ function setMap(){
     style: roadsStyle
   });
   roadsLayer.addTo(mymap);
-
+  //
   var coordinatesStyle = {
-    "fillOpacity": "0"
+    "fillOpacity": "0",
+    "color": "red"
   }
   var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesgeo.json",{
     style: coordinatesStyle
   });
-  coordinatesLayer.addTo(mymap).bindPopup("<a href='https://www.google.com/maps/dir//43.074417,-89.573417/@43.074418,-89.5739642,19z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzI3LjkiTiA4OcKwMzQnMjQuMyJX!3b1!8m2!3d43.074417!4d-89.573417!4m1!3e1'>Directions</a><br>Pioneer Park/Town Hall");
+  coordinatesLayer.addTo(mymap);
+
+  var coordinateStyle = {
+    "fillOpacity": "0"
+  }
+  var coordinateLayer = new L.GeoJSON.AJAX("Data/Points/Pioneer Park Coordinatesgeo.json",{
+    style: coordinateStyle
+  });
+  coordinateLayer.addTo(mymap).bindPopup("<a href='https://www.google.com/maps/dir//43.074417,-89.573417/@43.074418,-89.5739642,19z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzI3LjkiTiA4OcKwMzQnMjQuMyJX!3b1!8m2!3d43.074417!4d-89.573417!4m1!3e1'>Directions</a><br>Pioneer Park/Town Hall");
+
+ // Add legend
+  var legend = L.control({position: 'bottomright'});
+
+  legend.onAdd = function(mymap) {
+    var div = L.DomUtil.create('div', 'info legend');
+    div.innerHTML += "Trails";
 
 
+    return div;
+  };
 
-  // L.control.layers(schParLayer, midParLayer).addTo(mymap);
+  legend.addTo(mymap);
+  // Create layer groups
+  // var coordinatesGroup = L.layerGroup([coordinatesLayer, coordinateLayer]);
+  // var parcelsGroup = L.layerGroup([midParLayer, schParLayer]);
+  // L.control.layers(parcelsGroup, coordinatesGroup).addTo(mymap);
 
 
 
