@@ -26,17 +26,54 @@ function setMap(){
   }).addTo(mymap);
 
   // Add GeoJSON layers to map
-  var parksLayer = new L.GeoJSON.AJAX("Data/Trails/parks_reprojgeo.json");
+
+  // Boundary styling
+  var boundaryStyle = {
+    "color": "#000000",
+    "weight": "1",
+    "fillColor": "#ffffff",
+    "fillOpacity": "1"
+  };
+  var boundaryLayer = new L.GeoJSON.AJAX("Data/Boundary/Boundarygeo.json",{
+    style: boundaryStyle
+  });
+  boundaryLayer.addTo(mymap);
+
+  // Parks styling
+  var parkStyle = {
+    "color": "e0ffba",
+    "weight": "1"
+  };
+  var parksLayer = new L.GeoJSON.AJAX("Data/Trails/parks_reprojgeo.json",{
+    style: parkStyle
+  });
   parksLayer.addTo(mymap);
 
   var trailsLayer = new L.GeoJSON.AJAX("Data/Trails/exist_imp_ease_reprojgeo.json");
   trailsLayer.addTo(mymap);
 
-  var roadsLayer = new L.GeoJSON.AJAX("Data/Middleton_Roads/Town_of_Middleton_Roadsgeo.json");
+
+  var roadsStyle = {
+    "color": "#000000",
+    "weight": "2"
+  }
+  var roadsLayer = new L.GeoJSON.AJAX("Data/Middleton_Roads/Town_of_Middleton_Roadsgeo.json",{
+    style: roadsStyle
+  });
   roadsLayer.addTo(mymap);
 
-  var midParLayer = new L.GeoJSON.AJAX("Data/Parcels/middleton_parcels_reprojgeo.json");
+
+  var midParStyle = {
+    "fillOpacity": "0.3"
+  }
+  var midParLayer = new L.GeoJSON.AJAX("Data/Parcels/middleton_parcels_reprojgeo.json",{
+    style: midParStyle
+  });
   midParLayer.addTo(mymap);
+
+
+  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesgeo.json");
+  coordinatesLayer.addTo(mymap);
 
 
 
