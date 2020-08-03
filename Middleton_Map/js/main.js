@@ -39,41 +39,79 @@ function setMap(){
   });
   boundaryLayer.addTo(mymap);
 
+  // Road styling
+  var roadsStyle = {
+    "color": "#000000",
+    "weight": "2"
+  };
+  var roadsLayer = new L.GeoJSON.AJAX("Data/Middleton_Roads/Town_of_Middleton_Roadsgeo.json",{
+    style: roadsStyle
+  });
+  roadsLayer.addTo(mymap);
+
+  // Middleton parcel styling
+  var midParStyle = {
+    "fillColor": "#ffdda6",
+    "fillOpacity": "1",
+    "weight": "1"
+  };
+  var midParLayer = new L.GeoJSON.AJAX("Data/Parcels/middleton_parcels_reprojgeo.json",{
+    style: midParStyle
+  });
+  midParLayer.addTo(mymap);
+
+  // School-owned parcels styling
+  var schParStyle = {
+    "fillColor": "#fec44f",
+    "fillOpacity": "1",
+    "weight": "1"
+  };
+  var schParLayer = new L.GeoJSON.AJAX("Data/Parcels/school_parcels_reprojgeo.json",{
+    style: schParStyle
+  })
+
   // Parks styling
   var parkStyle = {
-    "color": "e0ffba",
-    "weight": "1"
+    "weight": "1",
+    "fillColor": "#e0ffba",
+    "fillOpacity": "1"
   };
   var parksLayer = new L.GeoJSON.AJAX("Data/Trails/parks_reprojgeo.json",{
     style: parkStyle
   });
   parksLayer.addTo(mymap);
 
-  var trailsLayer = new L.GeoJSON.AJAX("Data/Trails/exist_imp_ease_reprojgeo.json");
+
+  // Trail styling
+  var trailsStyle = {
+    "color": "#34e03c"
+  };
+  var trailsLayer = new L.GeoJSON.AJAX("Data/Trails/exist_imp_ease_reprojgeo.json",{
+    style: trailsStyle
+  });
   trailsLayer.addTo(mymap);
 
 
   var roadsStyle = {
     "color": "#000000",
     "weight": "2"
-  }
+  };
   var roadsLayer = new L.GeoJSON.AJAX("Data/Middleton_Roads/Town_of_Middleton_Roadsgeo.json",{
     style: roadsStyle
   });
   roadsLayer.addTo(mymap);
 
-
-  var midParStyle = {
-    "fillOpacity": "0.3"
+  var coordinatesStyle = {
+    "fillOpacity": "0"
   }
-  var midParLayer = new L.GeoJSON.AJAX("Data/Parcels/middleton_parcels_reprojgeo.json",{
-    style: midParStyle
+  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesgeo.json",{
+    style: coordinatesStyle
   });
-  midParLayer.addTo(mymap);
+  coordinatesLayer.addTo(mymap).bindPopup("<a href='https://www.google.com/maps/dir//43.074417,-89.573417/@43.074418,-89.5739642,19z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzI3LjkiTiA4OcKwMzQnMjQuMyJX!3b1!8m2!3d43.074417!4d-89.573417!4m1!3e1'>Directions</a><br>Pioneer Park/Town Hall");
 
 
-  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesgeo.json");
-  coordinatesLayer.addTo(mymap);
+
+  // L.control.layers(schParLayer, midParLayer).addTo(mymap);
 
 
 

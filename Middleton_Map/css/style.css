@@ -22,8 +22,15 @@
 } */
 
                 /* MAP STYLES */
-#mapid {
-  height: 450px;
+
+/* Styling for mobile */
+body {
+  padding: 0;
+  margin;
+}
+html, body, #mapid {
+  height: 100%;
+  width: 100vw;
 }
 
 
