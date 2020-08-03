@@ -42,6 +42,9 @@ function setMap(){
   var parksLayer = new L.GeoJSON.AJAX("Data/Trails/parks_reprojgeo.json");
   parksLayer.addTo(mymap);
 
+  var trailsLayer = new L.GeoJSON.AJAX("Data/Trails/exist_imp_ease_reprojgeo.json");
+  trailsLayer.addTo(mymap);
+
 
 
 
