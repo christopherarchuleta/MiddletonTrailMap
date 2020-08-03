@@ -1,0 +1,366 @@
+              /* HEADER STYLES */
+/* @font-face {
+  font-family: Gotham;
+  src: url(/img/Gotham-Bold.otf);
+}
+
+.header {
+  font-family: Gotham;
+  text-align: center;
+  color: #fff;
+  background-color: #756bb1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0;
+} */
+
+/* Link colors */
+/* .externallink {
+  color: #54278f !important;
+  font-weight: bolder;
+  font-size: 16pt;
+} */
+
+                /* MAP STYLES */
+#mapid {
+  height: 450px;
+}
+
+
+
+              /* PARAGRAPH STYLES */
+
+/* .InfoBody {
+  width: 67vw;
+  line-height: 20pt;
+  padding-top: 75vh;  */
+  /* pushes paragraphs down below map */
+  /* padding-left: 2%;
+} */
+
+/* #Welcome {
+  font-family: Quicksand;
+  font-weight: normal;
+  color: white;
+} */
+
+/* #welcomelink {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+#Welcome a:hover {
+  color: cyan !important;
+}
+
+
+.paragraph {
+  font-family: Quicksand;
+  font-weight: normal;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  color: black;
+  font-size: 14pt;
+  line-height: 25pt;
+}
+
+#paragraphTitle {
+  color: #54278f;
+  font-size: 33pt;
+  font-family: Quicksand;
+  text-align: left;
+}
+
+#imageTitle {
+  padding-top: 10px;
+  text-align: center;
+  font-family: Quicksand;
+}
+
+#embeddedImg {
+  padding-bottom: 40px;
+}
+
+#videosource {
+  border-radius: 10px;
+  border-color: #756bb1;
+  border-width: 6px;
+  height: 450px;
+} */
+
+/* Closing Sources */
+
+/* .source-creator-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.source-column {
+  float: left;
+  padding-left: 2%;
+}
+
+.creator-column {
+  float: right;
+  padding-right: 2%;
+}
+
+.closer {
+  font-family: Quicksand;
+  color: #fff;
+  background-color: #756bb1;
+  top: 0px;
+  height: 80%;
+  z-index: 10;
+}
+
+#sources-title {
+  text-align: left;
+  padding-top: 1%;
+  padding-left: 1%;
+  z-index: 10;
+  position: relative;
+}
+
+#sources {
+  text-align: left;
+  z-index: 10;
+  padding-left: 1%;
+  position:relative;
+}
+
+#portfoliolinks {
+  color: #fff;
+  text-decoration: none;
+}
+
+#sources a:hover {
+  color: cyan;
+  transition: .2s ease;
+} */
+
+
+
+              /* M A P  A N D  L E G E N D */
+
+/* Map/Legend/Retrieve Containers */
+/* .map-row {
+  position: absolute;
+  padding-top: 5vh;
+}
+
+.map-row::after {
+  content: "";
+  clear: both;
+  display: flex;
+  position: absolute;
+}
+
+.legend-column {
+  float: left;
+  padding-top: 0px;
+}
+
+.map-column {
+  float:right;
+  text-align: center;
+}
+
+.retrieveContainer {
+  padding-left: 76vw;
+  padding-top: 20vh; */
+  /* bottom: 565vh; pushes retrievePanel up */
+  /* position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.retrievePanel {
+  width: 23vw;
+  background-color: #54278f; */
+  /* background-image: linear-gradient(to bottom, #54278f 0, #9e9ac8 100%) !important; */
+  /* position: relative;
+  text-align: left;
+  border-radius: 5px;
+  font-family: Gotham;
+  padding-left: 5px;
+  pointer-events: none;
+  color: #fff;
+  font-size: 10pt;
+  opacity: 90%;
+} */
+
+/* .overlay {  */
+  /* Filter Panel */
+  /* text-decoration: none !important;
+} */
+
+
+/* LEGEND ACCORDION STYLES */
+/* #accordion {
+  width: 20vw;
+  padding-left: 10px;
+} */
+
+/* #accordion2 {
+  float: right !important;
+  width: 10vw !important;
+  padding-left: 80vw;
+  padding-top: 40vh;
+  position: absolute;
+  pointer-events: fill;
+  z-index: 1;
+} */
+
+/* #radiobutton {
+  pointer-events:all !important;
+  z-index: 2;
+}
+
+.panel2 {
+  float: right !important; */
+  /* padding-right: 4%; */
+   /* Pushes panel left and right */
+  /* padding-top: 48vh;  */
+  /* Pushes down */
+  /* position: relative;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.panel-heading {
+  background-image: linear-gradient(to bottom, #54278f 0, #756bb1 100%) !important;
+  color: white;
+}
+
+.panel-title {
+  color: white !important;
+  border-color: gray; */
+  /* padding-right: 60px;  */
+  /* Controls Overlay Panel Width */
+/* } */
+
+/* .panel-title2 {
+  color: white !important;
+  border-color: gray;
+}
+
+.panel-body2 {
+  border-color: black !important;
+  border-width: 1;
+  z-index: 0;
+} */
+
+/* #collapse8 {  */
+  /* Overlay Panel Body */
+  /* background-color: #9e9ac8;
+  color: #fff;
+  font-family: Quicksand;
+  padding-left: 5px;
+  line-height: 18pt;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+
+} */
+
+/* MAP STYLES */
+/* .map { */
+  /* border: medium solid white; */
+  /* margin: 10px 0 0 20px;
+  background-color: none; */
+  /* background-color: #fff; */
+  /* position: relative;
+  float: right;
+  flex: 75%;
+  width: 67vw;
+  overflow-x: scroll;
+  bottom: 25px;
+  stroke: #4b30c1;
+  stroke-width: 1.1;
+}
+
+path {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.popup {
+  stroke: orange;
+}
+
+.lands {
+  fill: rgba(100,100,100,0.4);
+}
+
+.boundaries {
+  stroke-width: .5px;
+  fill: #ffffff;
+  stroke: gray;
+}
+
+.roads {
+  fill: none;
+  stroke: pink;
+}
+
+.impTrailEase {
+  fill: none;
+  stroke: yellow;
+}
+
+.parks {
+  fill: green;
+  stroke-width: 0.25px;
+}
+
+.planEase {
+  fill: none;
+  stroke: orange;
+}
+
+.planNoEase {
+  fill: none;
+  stroke: black;
+}
+
+.notRec {
+  fill: none;
+  stroke: blue;
+}
+
+.uncert {
+  fill: none;
+  stroke: purple;
+}
+
+.midPar {
+  fill: rgba(180, 0, 60, 0.6);
+}
+
+.schPar {
+  fill: rgba(0, 225, 110, 0.6);
+} */
+/* RETRIEVE PANEL STYLES */
+
+/* .infolabel {
+margin: 0 20px 0 0;
+position: absolute;
+height: 75px;
+min-width: 100px;
+color: #fff;
+background-image: linear-gradient(to bottom, #045a8d 0, #2b8cbe 100%) !important;
+border: solid medium #fff;
+padding: 5px 10px;
+top: -75px;
+text-align: center;
+}
+
+.infolabel h1 {
+margin: 0 20px 0 0;
+padding: 0;
+display: inline-block;
+line-height: 1em;
+text-align: center;
+} */
