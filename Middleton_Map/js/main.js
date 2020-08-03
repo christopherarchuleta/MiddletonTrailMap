@@ -25,25 +25,18 @@ function setMap(){
     accessToken: 'pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg'
   }).addTo(mymap);
 
-
-  //Translate TopoJSON to GeoJSON
-  // var middletonBoundary = topojson.feature(boundary, boundary.objects.Boundary).features
-  // var middletonRoads = topojson.feature(road, road.objects.Town_of_Middleton_Roads).features
-  // var improvedTrailsEasements = topojson.feature(improveTrailEasement, improveTrailEasement.objects.exist_imp_ease_reproj).features
-  // var middletonParks = topojson.feature(park, park.objects.parks_reproj).features
-  // var plannedEasements = topojson.feature(plannedEasement, plannedEasement.objects.plan_ease_reproj).features
-  // var plannedNoEasements = topojson.feature(plannedNoEasement, plannedNoEasement.objects.plan_no_ease_reproj).features
-  // var middletonNotRecorded = topojson.feature(notRecorded, notRecorded.objects.seg_not_rec_reproj).features
-  // var middletonUncertain = topojson.feature(uncertain, uncertain.objects.uncert_reproj).features
-  // var middletonParcels = topojson.feature(midParcels, midParcels.objects.middleton_parcels_reproj).features
-  // var schoolOwnParcels = topojson.feature(schoolParcels, schoolParcels.objects.school_parcels_reproj).features
-  // var middletonCoordinates = trailCoordinates.features
-
+  // Add GeoJSON layers to map
   var parksLayer = new L.GeoJSON.AJAX("Data/Trails/parks_reprojgeo.json");
   parksLayer.addTo(mymap);
 
   var trailsLayer = new L.GeoJSON.AJAX("Data/Trails/exist_imp_ease_reprojgeo.json");
   trailsLayer.addTo(mymap);
+
+  var roadsLayer = new L.GeoJSON.AJAX("Data/Middleton_Roads/Town_of_Middleton_Roadsgeo.json");
+  roadsLayer.addTo(mymap);
+
+  var midParLayer = new L.GeoJSON.AJAX("Data/Parcels/middleton_parcels_reprojgeo.json");
+  midParLayer.addTo(mymap);
 
 
 
