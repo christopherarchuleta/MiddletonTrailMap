@@ -1,6 +1,9 @@
 //begin script when window loads
 window.onload = setMap();
 
+
+
+
 // Set up map
 function setMap(){
 
@@ -31,6 +34,17 @@ function setMap(){
   var mymap = L.map('mapid', {
     layers: tiles
   }).setView([43.07292, -89.574164], 16);
+
+
+  // Read CSV file
+  var coordCSV = fetch("Data/MiddletonCoordinates.csv");
+  console.log(coordCSV);
+
+
+
+
+
+
 
   // Add GeoJSON layers to map
 
