@@ -36,8 +36,9 @@ html, body, #mapid {
 
             /* LEGEND STYLES */
 .legend {
-  line-height: 14px;
+  line-height: 24px;
   color: #111111;
+  background-color: #ffffff;
 }
 
 .legend i {
@@ -46,6 +47,25 @@ html, body, #mapid {
   float: left;
   margin-right: 8px;
   opacity: 0.8;
+}
+
+
+/* Makeshift labels */
+.leaflet-tooltip.big-label {
+  font-size: 20px;
+  color: #333333;
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none;
+}
+
+.leaflet-tooltip.label {
+  font-size: 12px;
+  color: #333333;
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none;
+  transform: rotate(45deg);
 }
 
 

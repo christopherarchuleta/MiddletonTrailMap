@@ -11,19 +11,26 @@ function setMap(){
 
 
   // Initialize the map center and zoom level
-  var mymap = L.map('mapid').setView([43.07292, -89.574164], 16);
+  // var mymap = L.map('mapid', {
+  //   layers:
+  // }).setView([43.07292, -89.574164], 16);
 
 
 
   // Set up tiles and constrain zoom
-  L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m.html?fresh=true&title=copy&access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg', {
+  var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m.html?fresh=true&title=copy&access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg', {
     attribution: ' © <a href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://www.mapbox.com/gallery/#frank"> Style</a> © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     minZoom: 15,
     id: 'cjarchuleta',
     tileSize: 256,
     accessToken: 'pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg'
-  }).addTo(mymap);
+  });
+
+  // Initialize the map center and zoom level
+  var mymap = L.map('mapid', {
+    layers: tiles
+  }).setView([43.07292, -89.574164], 16);
 
   // Add GeoJSON layers to map
 
@@ -51,8 +58,9 @@ function setMap(){
 
   // Middleton parcel styling
   var midParStyle = {
+    "color": "#000000",
     "fillColor": "#ffdda6",
-    "fillOpacity": "1",
+    "fillOpacity": "0.5",
     "weight": "1"
   };
   var midParLayer = new L.GeoJSON.AJAX("Data/Parcels/middleton_parcels_reprojgeo.json",{
@@ -62,8 +70,9 @@ function setMap(){
 
   // School-owned parcels styling
   var schParStyle = {
+    "color": "#000000",
     "fillColor": "#fec44f",
-    "fillOpacity": "1",
+    "fillOpacity": "0.5",
     "weight": "1"
   };
   var schParLayer = new L.GeoJSON.AJAX("Data/Parcels/school_parcels_reprojgeo.json",{
@@ -73,6 +82,7 @@ function setMap(){
   // Parks styling
   var parkStyle = {
     "weight": "1",
+    "color": "#000000",
     "fillColor": "#e0ffba",
     "fillOpacity": "1"
   };
@@ -119,21 +129,63 @@ function setMap(){
   coordinateLayer.addTo(mymap).bindPopup("<a href='https://www.google.com/maps/dir//43.074417,-89.573417/@43.074418,-89.5739642,19z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzI3LjkiTiA4OcKwMzQnMjQuMyJX!3b1!8m2!3d43.074417!4d-89.573417!4m1!3e1'>Directions</a><br>Pioneer Park/Town Hall");
 
  // Add legend
-  var legend = L.control({position: 'bottomright'});
+          // var legend = L.control({position: 'bottomright'});
+          //
+          // legend.onAdd = function(mymap) {
+          //   var div = L.DomUtil.create('div', 'info legend');
+          //   div.innerHTML += ["Trails</br>Trailheads</br>Middleton-owned Parcels</br><a href=lib/leaflet/images/marker-icon.png></a>"];
+          //
+          //
+          //   return div;
+          // };
+          //
+          // legend.addTo(mymap);
 
-  legend.onAdd = function(mymap) {
-    var div = L.DomUtil.create('div', 'info legend');
-    div.innerHTML += "Trails";
-
-
-    return div;
-  };
-
-  legend.addTo(mymap);
   // Create layer groups
-  // var coordinatesGroup = L.layerGroup([coordinatesLayer, coordinateLayer]);
-  // var parcelsGroup = L.layerGroup([midParLayer, schParLayer]);
-  // L.control.layers(parcelsGroup, coordinatesGroup).addTo(mymap);
+  var coordinatesGroup = L.layerGroup([coordinatesLayer, coordinateLayer]);
+  var parcelsGroup = L.layerGroup([midParLayer, schParLayer]);
+  var baseLayers = {
+    Basemap: tiles
+  };
+  var overlays = {
+    Trailheads: coordinatesGroup,
+    Parcels: parcelsGroup,
+    Trails: trailsLayer
+  };
+  // Create layer control/pseudo-legend
+  L.control.layers(baseLayers, overlays).addTo(mymap);
+
+
+  // Add park label
+  var parkPoint = {
+    "type": "Feature",
+    "properties": { "name":"Pioneer Park"}, "geometry": { "type": "Point", "coordinates": [43.07292, -89.574164]}};
+  var parkLabel = L.geoJSON(null, {
+    pointToLayer: function(){
+      label = String("<strong>Pioneer Park</strong>")
+      // Bind a permanent tooltip for makeshift label
+      return new L.CircleMarker([43.0735, -89.57455], {
+        radius: 1,
+      }).bindTooltip(label, {permanent: true, direction: "center", className: "big-label", opacity: 1}).openTooltip();
+    }
+    });
+  parkLabel.addData(parkPoint);
+  parkLabel.addTo(mymap);
+
+  // Add street labels
+  var saukPoint = {
+    "type": "Feature",
+    "properties": { "name":"Old Sauk Rd"}, "geometry": { "type": "Point", "coordinates": [43.08, -89.578]}};
+  var saukLabel = L.geoJSON(null, {
+    pointToLayer: function(){
+      label = String("Old Sauk Rd.")
+      return new L.circleMarker([43.07485, -89.57], {
+        radius: 1,
+      }).bindTooltip(label, {permanent: true, direction: "center", className: "label", opacity: 1, transform: "rotate(45deg)"}).openTooltip();
+    }
+  });
+saukLabel.addData(saukPoint);
+saukLabel.addTo(mymap);
 
 
 
