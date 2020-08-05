@@ -135,12 +135,14 @@ function setMap(){
     style: roadsStyle
   });
   roadsLayer.addTo(mymap);
-  //
+
+  //Trailhead styling
   var coordinatesStyle = {
     "fillOpacity": "0",
     "color": "red",
   };
   var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesNewgeo.json",{
+    // Pass function called onEachFeature to trailhead coordinate layer for individualized name and directions
     onEachFeature : onEachFeature,
     style: coordinatesStyle
   });
