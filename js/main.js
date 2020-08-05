@@ -49,7 +49,7 @@ function setMap(){
       layer.bindPopup(parking);
     };
     if (feature.properties && feature.properties.Directions) {
-      layer.bindPopup("<a href=" + feature.properties.Directions + ">Directions</a>");
+      layer.bindPopup("<a href=" + feature.properties.Directions + ">Directions</a></br>" + feature.properties.Name);
     }
   };
 
