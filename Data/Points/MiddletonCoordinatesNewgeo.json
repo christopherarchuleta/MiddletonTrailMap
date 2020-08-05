@@ -1,0 +1,632 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.566091,43.075183 ]
+    },
+    "properties": {
+    "Name":"Pope Farm Conservancy- Old Sauk",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.565865,43.07748 ]
+    },
+    "properties": {
+    "Name":"Pope Farm Conservancy- Old Sauk ",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.56671,43.08166 ]
+    },
+    "properties": {
+    "Name":"Pope Farm Conservancy- Blackhawk",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.576117,43.076951 ]
+    },
+    "properties": {
+    "Name":"Pope Farm Conservancy- Twin Valley",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.580109,43.067551 ]
+    },
+    "properties": {
+    "Name":"Cardinal Point Tr",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.573441,43.07448 ]
+    },
+    "properties": {
+    "Name":"Pioneer Park/Town Hall",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.595081,43.074597 ]
+    },
+    "properties": {
+    "Name":"Goth Conservancy",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.592099,43.0712235 ]
+    },
+    "properties": {
+    "Name":"Caribou Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.58973,43.07387 ]
+    },
+    "properties": {
+    "Name":"Adams Park Ct",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.592022,43.06083 ]
+    },
+    "properties": {
+    "Name":"Cherrywood Acres Park",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.591801,43.058857 ]
+    },
+    "properties": {
+    "Name":"Voss Park",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.591505,43.05595 ]
+    },
+    "properties": {
+    "Name":"Swoboda Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.592358,43.050404 ]
+    },
+    "properties": {
+    "Name":"Swoboda Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.58652,43.046264 ]
+    },
+    "properties": {
+    "Name":"Sabaka Tr",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.582597,43.039424 ]
+    },
+    "properties": {
+    "Name":"Moraine Ridge Rd- Ice Age Trail",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.58454,43.039854 ]
+    },
+    "properties": {
+    "Name":"Moraine Ridge Rd- Ice Age Trail",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.593853,43.037012 ]
+    },
+    "properties": {
+    "Name":"Noll Valley Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.593939,43.038995 ]
+    },
+    "properties": {
+    "Name":"Noll Valley Rd- Noll Valley Conservancy",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.596126,43.041938 ]
+    },
+    "properties": {
+    "Name":"Ice Age Ln- Ice Age Trail",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.597545,43.052086 ]
+    },
+    "properties": {
+    "Name":"Serene Ct",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.597129,43.055855 ]
+    },
+    "properties": {
+    "Name":"Woodpond Tr",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.597759,43.05804 ]
+    },
+    "properties": {
+    "Name":"Arapaho Ct",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.596098,43.056532 ]
+    },
+    "properties": {
+    "Name":"Sequoia Tr",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.595248,43.056056 ]
+    },
+    "properties": {
+    "Name":"Sequoia Tr",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.593065,43.054695 ]
+    },
+    "properties": {
+    "Name":"Okanogan Ct",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.600799,43.063918 ]
+    },
+    "properties": {
+    "Name":"Timber Ln",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.601101,43.064371 ]
+    },
+    "properties": {
+    "Name":"Timber Ln- Ice Age Trail",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.594057,43.063852 ]
+    },
+    "properties": {
+    "Name":"Caribou Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.5857,43.065789 ]
+    },
+    "properties": {
+    "Name":"Almor Dr",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.586341,43.068209 ]
+    },
+    "properties": {
+    "Name":"Swoboda Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.580326,43.066719 ]
+    },
+    "properties": {
+    "Name":"Cardinal Point Tr",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.578884,43.063322 ]
+    },
+    "properties": {
+    "Name":"Cardinal Point Tr",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.577801,43.064639 ]
+    },
+    "properties": {
+    "Name":"Cardinal Point Tr",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.575806,43.0644 ]
+    },
+    "properties": {
+    "Name":"Bay Laurel Ln",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.576095,43.063125 ]
+    },
+    "properties": {
+    "Name":"Bay Laurel Ln",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.57492,43.0644 ]
+    },
+    "properties": {
+    "Name":"Silverbell Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.573675,43.065423 ]
+    },
+    "properties": {
+    "Name":"Lady Fern Ct",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.571539,43.067399 ]
+    },
+    "properties": {
+    "Name":"Pioneer Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.545596,43.103032 ]
+    },
+    "properties": {
+    "Name":"Hinrich's Family Farm Park",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.54501,43.11308 ]
+    },
+    "properties": {
+    "Name":"Ed Tallard Park- Airport",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.551094,43.114823 ]
+    },
+    "properties": {
+    "Name":"Ed Tallard Park- Capitol View",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.55223,43.10811 ]
+    },
+    "properties": {
+    "Name":"Hickory Woods Park",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.557203,43.107809 ]
+    },
+    "properties": {
+    "Name":"Meadow Valley Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.560236,43.108855 ]
+    },
+    "properties": {
+    "Name":"Highfield Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.56589,43.10363 ]
+    },
+    "properties": {
+    "Name":"Summit Ridge Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.56412,43.1121 ]
+    },
+    "properties": {
+    "Name":"Settler's Prairie Park- Ellington",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.566291,43.113777 ]
+    },
+    "properties": {
+    "Name":"Settler's Prairie Park- Bergamot",
+    "Parking Space":"Yes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.56728,43.112339 ]
+    },
+    "properties": {
+    "Name":"Settler's Prairie Park- Bergamot",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.565892,43.115952 ]
+    },
+    "properties": {
+    "Name":"Bergamot Way",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.582155,43.112092 ]
+    },
+    "properties": {
+    "Name":"Sunset Ridge Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.58337,43.11428 ]
+    },
+    "properties": {
+    "Name":"Delmara Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.58724,43.11457 ]
+    },
+    "properties": {
+    "Name":"Westman Way Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.59002,43.115601 ]
+    },
+    "properties": {
+    "Name":"Westman Way Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.591923,43.115352 ]
+    },
+    "properties": {
+    "Name":"Toepfer Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.583693,43.107385 ]
+    },
+    "properties": {
+    "Name":"Rocky Dell Rd",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.585417,43.108832 ]
+    },
+    "properties": {
+    "Name":"Payvery Tr",
+    "Parking Space":"No"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.575953,43.116861 ]
+    },
+    "properties": {
+    "Name":"Bronner Rd",
+    "Parking Space":"No"
+    }
+  }
+]
+}

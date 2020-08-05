@@ -36,11 +36,13 @@ function setMap(){
   }).setView([43.07292, -89.574164], 16);
 
 
-  // Read CSV file
-  var coordCSV = fetch("Data/MiddletonCoordinates.csv");
-  console.log(coordCSV);
 
-
+  // Function for individualized Popups
+  function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.Name) {
+      layer.bindPopup(feature.properties.Name);
+    }
+  };
 
 
 
@@ -127,9 +129,10 @@ function setMap(){
   //
   var coordinatesStyle = {
     "fillOpacity": "0",
-    "color": "red"
-  }
-  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesgeo.json",{
+    "color": "red",
+  };
+  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesNewgeo.json",{
+    onEachFeature : onEachFeature,
     style: coordinatesStyle
   });
   coordinatesLayer.addTo(mymap);
