@@ -47,6 +47,9 @@ function setMap(){
     };
     if (feature.properties && feature.properties.Parking_Space == "Yes") {
       layer.bindPopup(parking);
+    };
+    if (feature.properties && feature.properties.Directions) {
+      layer.bindPopup("<a href=" + feature.properties.Directions + ">Directions</a>");
     }
   };
 
