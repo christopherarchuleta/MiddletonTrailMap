@@ -35,12 +35,18 @@ function setMap(){
     layers: tiles
   }).setView([43.07292, -89.574164], 16);
 
+  // Parking Icon variable
+  var parking = "<img src='img/Parking-01.png'/>";
+
 
 
   // Function for individualized Popups
-  function onEachFeature(feature, layer) {
+  function onEachFeature(feature, layer, parking) {
     if (feature.properties && feature.properties.Name) {
       layer.bindPopup(feature.properties.Name);
+    };
+    if (feature.properties && feature.properties.Parking_Space == "Yes") {
+      layer.bindPopup(parking);
     }
   };
 

@@ -9,7 +9,8 @@
     },
     "properties": {
     "Name":"Pope Farm Conservancy- Old Sauk",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.075183,-89.566091/@43.075183,-89.568285,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzMwLjciTiA4OcKwMzMnNTcuOSJX!3b1!8m2!3d43.075183!4d-89.566091!4m1!3e1"
     }
   },
   {
@@ -20,7 +21,8 @@
     },
     "properties": {
     "Name":"Pope Farm Conservancy- Old Sauk ",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.07748,-89.565865/@43.0774839,-89.5680591,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzM4LjkiTiA4OcKwMzMnNTcuMSJX!3b1!8m2!3d43.07748!4d-89.565865!4m1!3e1"
     }
   },
   {
@@ -31,7 +33,8 @@
     },
     "properties": {
     "Name":"Pope Farm Conservancy- Blackhawk",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.08166,-89.56671/@43.0816639,-89.5689041,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzU0LjAiTiA4OcKwMzQnMDAuMiJX!3b1!8m2!3d43.08166!4d-89.56671!4m1!3e1"
     }
   },
   {
@@ -42,7 +45,8 @@
     },
     "properties": {
     "Name":"Pope Farm Conservancy- Twin Valley",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.076951,-89.576117/@43.0769549,-89.5783111,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzM3LjAiTiA4OcKwMzQnMzQuMCJX!3b1!8m2!3d43.076951!4d-89.576117!4m1!3e1"
     }
   },
   {
@@ -53,7 +57,8 @@
     },
     "properties": {
     "Name":"Cardinal Point Tr",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.067551,-89.580109/@43.0675549,-89.5823031,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzAzLjIiTiA4OcKwMzQnNDguNCJX!3b1!8m2!3d43.067551!4d-89.580109!4m1!3e1"
     }
   },
   {
@@ -64,7 +69,8 @@
     },
     "properties": {
     "Name":"Pioneer Park/Town Hall",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.07448,-89.573441/@43.0744839,-89.5756351,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzI4LjEiTiA4OcKwMzQnMjQuNCJX!3b1!8m2!3d43.07448!4d-89.573441!4m1!3e1"
     }
   },
   {
@@ -75,7 +81,8 @@
     },
     "properties": {
     "Name":"Goth Conservancy",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.074597,-89.595081/@43.0746009,-89.5972751,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzI4LjYiTiA4OcKwMzUnNDIuMyJX!3b1!8m2!3d43.074597!4d-89.595081!4m1!3e1"
     }
   },
   {
@@ -86,7 +93,8 @@
     },
     "properties": {
     "Name":"Caribou Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.0712235,-89.592099/@43.0712274,-89.5942931,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzE2LjQiTiA4OcKwMzUnMzEuNiJX!3b1!8m2!3d43.0712235!4d-89.592099!4m1!3e1"
     }
   },
   {
@@ -97,7 +105,8 @@
     },
     "properties": {
     "Name":"Adams Park Ct",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.07387,-89.58973/@43.0738739,-89.5919241,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzI1LjkiTiA4OcKwMzUnMjMuMCJX!3b1!8m2!3d43.07387!4d-89.58973!4m1!3e1"
     }
   },
   {
@@ -108,7 +117,8 @@
     },
     "properties": {
     "Name":"Cherrywood Acres Park",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.06083,-89.592022/@43.0608339,-89.5942161,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzM5LjAiTiA4OcKwMzUnMzEuMyJX!3b1!8m2!3d43.06083!4d-89.592022!4m1!3e1"
     }
   },
   {
@@ -119,7 +129,8 @@
     },
     "properties": {
     "Name":"Voss Park",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.058857,-89.591801/@43.0588609,-89.5939951,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzMxLjkiTiA4OcKwMzUnMzAuNSJX!3b1!8m2!3d43.058857!4d-89.591801!4m1!3e1"
     }
   },
   {
@@ -130,7 +141,8 @@
     },
     "properties": {
     "Name":"Swoboda Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.05595,-89.591505/@43.0559539,-89.5936991,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzIxLjQiTiA4OcKwMzUnMjkuNCJX!3b1!8m2!3d43.05595!4d-89.591505!4m1!3e1"
     }
   },
   {
@@ -141,7 +153,8 @@
     },
     "properties": {
     "Name":"Swoboda Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.050404,-89.592358/@43.0504079,-89.5945521,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzAxLjUiTiA4OcKwMzUnMzIuNSJX!3b1!8m2!3d43.050404!4d-89.592358!4m1!3e1"
     }
   },
   {
@@ -152,7 +165,8 @@
     },
     "properties": {
     "Name":"Sabaka Tr",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.046264,-89.58652/@43.0462679,-89.5887141,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAyJzQ2LjYiTiA4OcKwMzUnMTEuNSJX!3b1!8m2!3d43.046264!4d-89.58652!4m1!3e1"
     }
   },
   {
@@ -163,7 +177,8 @@
     },
     "properties": {
     "Name":"Moraine Ridge Rd- Ice Age Trail",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.039424,-89.582597/@43.0394279,-89.5847911,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAyJzIxLjkiTiA4OcKwMzQnNTcuNCJX!3b1!8m2!3d43.039424!4d-89.582597!4m1!3e1"
     }
   },
   {
@@ -174,7 +189,8 @@
     },
     "properties": {
     "Name":"Moraine Ridge Rd- Ice Age Trail",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.039854,-89.58454/@43.0398579,-89.5867341,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAyJzIzLjUiTiA4OcKwMzUnMDQuMyJX!3b1!8m2!3d43.039854!4d-89.58454!4m1!3e1"
     }
   },
   {
@@ -185,7 +201,8 @@
     },
     "properties": {
     "Name":"Noll Valley Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.037012,-89.593853/@43.0370159,-89.5960471,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAyJzEzLjIiTiA4OcKwMzUnMzcuOSJX!3b1!8m2!3d43.037012!4d-89.593853!4m1!3e1"
     }
   },
   {
@@ -196,7 +213,8 @@
     },
     "properties": {
     "Name":"Noll Valley Rd- Noll Valley Conservancy",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.038995,-89.593939/@43.0389989,-89.5961331,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAyJzIwLjQiTiA4OcKwMzUnMzguMiJX!3b1!8m2!3d43.038995!4d-89.593939!4m1!3e1"
     }
   },
   {
@@ -207,7 +225,8 @@
     },
     "properties": {
     "Name":"Ice Age Ln- Ice Age Trail",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.041938,-89.596126/@43.0419419,-89.5983201,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAyJzMxLjAiTiA4OcKwMzUnNDYuMSJX!3b1!8m2!3d43.041938!4d-89.596126!4m1!3e1"
     }
   },
   {
@@ -218,7 +237,8 @@
     },
     "properties": {
     "Name":"Serene Ct",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.052086,-89.597545/@43.0520899,-89.5997391,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzA3LjUiTiA4OcKwMzUnNTEuMiJX!3b1!8m2!3d43.052086!4d-89.597545!4m1!3e1"
     }
   },
   {
@@ -229,7 +249,8 @@
     },
     "properties": {
     "Name":"Woodpond Tr",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.055855,-89.597129/@43.0558589,-89.5993231,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzIxLjEiTiA4OcKwMzUnNDkuNyJX!3b1!8m2!3d43.055855!4d-89.597129!4m1!3e1"
     }
   },
   {
@@ -240,7 +261,8 @@
     },
     "properties": {
     "Name":"Arapaho Ct",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.05804,-89.597759/@43.0580439,-89.5999531,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzI4LjkiTiA4OcKwMzUnNTEuOSJX!3b1!8m2!3d43.05804!4d-89.597759!4m1!3e1"
     }
   },
   {
@@ -251,7 +273,8 @@
     },
     "properties": {
     "Name":"Sequoia Tr",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.056532,-89.596098/@43.0565359,-89.5982921,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzIzLjUiTiA4OcKwMzUnNDYuMCJX!3b1!8m2!3d43.056532!4d-89.596098!4m1!3e1"
     }
   },
   {
@@ -262,7 +285,8 @@
     },
     "properties": {
     "Name":"Sequoia Tr",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.056056,-89.595248/@43.0560599,-89.5974421,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzIxLjgiTiA4OcKwMzUnNDIuOSJX!3b1!8m2!3d43.056056!4d-89.595248!4m1!3e1"
     }
   },
   {
@@ -273,7 +297,8 @@
     },
     "properties": {
     "Name":"Okanogan Ct",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.054695,-89.593065/@43.0546989,-89.5952591,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzE2LjkiTiA4OcKwMzUnMzUuMCJX!3b1!8m2!3d43.054695!4d-89.593065!4m1!3e1"
     }
   },
   {
@@ -284,7 +309,8 @@
     },
     "properties": {
     "Name":"Timber Ln",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.063918,-89.600799/@43.0639219,-89.6029931,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzUwLjEiTiA4OcKwMzYnMDIuOSJX!3b1!8m2!3d43.063918!4d-89.600799!4m1!3e1"
     }
   },
   {
@@ -295,7 +321,8 @@
     },
     "properties": {
     "Name":"Timber Ln- Ice Age Trail",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.064371,-89.601101/@43.0643749,-89.6032951,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzUxLjciTiA4OcKwMzYnMDQuMCJX!3b1!8m2!3d43.064371!4d-89.601101!4m1!3e1"
     }
   },
   {
@@ -306,7 +333,8 @@
     },
     "properties": {
     "Name":"Caribou Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.063852,-89.594057/@43.0638559,-89.5962511,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzQ5LjkiTiA4OcKwMzUnMzguNiJX!3b1!8m2!3d43.063852!4d-89.594057!4m1!3e1"
     }
   },
   {
@@ -317,7 +345,8 @@
     },
     "properties": {
     "Name":"Almor Dr",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.065789,-89.5857/@43.0657929,-89.5878941,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzU2LjgiTiA4OcKwMzUnMDguNSJX!3b1!8m2!3d43.065789!4d-89.5857!4m1!3e1"
     }
   },
   {
@@ -328,7 +357,8 @@
     },
     "properties": {
     "Name":"Swoboda Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.068209,-89.586341/@43.0682129,-89.5885351,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzA1LjYiTiA4OcKwMzUnMTAuOCJX!3b1!8m2!3d43.068209!4d-89.586341!4m1!3e1"
     }
   },
   {
@@ -339,7 +369,8 @@
     },
     "properties": {
     "Name":"Cardinal Point Tr",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.066719,-89.580326/@43.0667229,-89.5825201,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzAwLjIiTiA4OcKwMzQnNDkuMiJX!3b1!8m2!3d43.066719!4d-89.580326!4m1!3e1"
     }
   },
   {
@@ -350,7 +381,8 @@
     },
     "properties": {
     "Name":"Cardinal Point Tr",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.063322,-89.578884/@43.0633259,-89.5810781,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzQ4LjAiTiA4OcKwMzQnNDQuMCJX!3b1!8m2!3d43.063322!4d-89.578884!4m1!3e1"
     }
   },
   {
@@ -361,7 +393,8 @@
     },
     "properties": {
     "Name":"Cardinal Point Tr",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.064639,-89.577801/@43.0646429,-89.5799951,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzUyLjciTiA4OcKwMzQnNDAuMSJX!3b1!8m2!3d43.064639!4d-89.577801!4m1!3e1"
     }
   },
   {
@@ -372,7 +405,8 @@
     },
     "properties": {
     "Name":"Bay Laurel Ln",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.0644,-89.575806/@43.0644039,-89.5780001,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzUxLjgiTiA4OcKwMzQnMzIuOSJX!3b1!8m2!3d43.0644!4d-89.575806!4m1!3e1"
     }
   },
   {
@@ -383,7 +417,8 @@
     },
     "properties": {
     "Name":"Bay Laurel Ln",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.063125,-89.576095/@43.0631289,-89.5782891,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzQ3LjMiTiA4OcKwMzQnMzMuOSJX!3b1!8m2!3d43.063125!4d-89.576095!4m1!3e1"
     }
   },
   {
@@ -394,7 +429,8 @@
     },
     "properties": {
     "Name":"Silverbell Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.0644,-89.57492/@43.0644039,-89.5771141,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzUxLjgiTiA4OcKwMzQnMjkuNyJX!3b1!8m2!3d43.0644!4d-89.57492!4m1!3e1"
     }
   },
   {
@@ -405,7 +441,8 @@
     },
     "properties": {
     "Name":"Lady Fern Ct",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.065423,-89.573675/@43.0654269,-89.5758691,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzU1LjUiTiA4OcKwMzQnMjUuMiJX!3b1!8m2!3d43.065423!4d-89.573675!4m1!3e1"
     }
   },
   {
@@ -416,7 +453,8 @@
     },
     "properties": {
     "Name":"Pioneer Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.067399,-89.571539/@43.0674029,-89.5737331,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzAyLjYiTiA4OcKwMzQnMTcuNSJX!3b1!8m2!3d43.067399!4d-89.571539!4m1!3e1"
     }
   },
   {
@@ -427,7 +465,8 @@
     },
     "properties": {
     "Name":"Hinrich's Family Farm Park",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.103032,-89.545596/@43.1030359,-89.5477901,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzEwLjkiTiA4OcKwMzInNDQuMiJX!3b1!8m2!3d43.103032!4d-89.545596!4m1!3e1"
     }
   },
   {
@@ -438,7 +477,8 @@
     },
     "properties": {
     "Name":"Ed Tallard Park- Airport",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.11308,-89.54501/@43.1130839,-89.5472041,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzQ3LjEiTiA4OcKwMzInNDIuMCJX!3b1!8m2!3d43.11308!4d-89.54501!4m1!3e1"
     }
   },
   {
@@ -449,7 +489,8 @@
     },
     "properties": {
     "Name":"Ed Tallard Park- Capitol View",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.114823,-89.551094/@43.1148269,-89.5532881,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzUzLjQiTiA4OcKwMzMnMDMuOSJX!3b1!8m2!3d43.114823!4d-89.551094!4m1!3e1"
     }
   },
   {
@@ -460,7 +501,8 @@
     },
     "properties": {
     "Name":"Hickory Woods Park",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.10811,-89.55223/@43.1081139,-89.5544241,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzI5LjIiTiA4OcKwMzMnMDguMCJX!3b1!8m2!3d43.10811!4d-89.55223!4m1!3e1"
     }
   },
   {
@@ -471,7 +513,8 @@
     },
     "properties": {
     "Name":"Meadow Valley Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.107809,-89.557203/@43.1078129,-89.5593971,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzI4LjEiTiA4OcKwMzMnMjUuOSJX!3b1!8m2!3d43.107809!4d-89.557203!4m1!3e1"
     }
   },
   {
@@ -482,7 +525,8 @@
     },
     "properties": {
     "Name":"Highfield Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.108855,-89.560236/@43.1088589,-89.5624301,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzMxLjkiTiA4OcKwMzMnMzYuOSJX!3b1!8m2!3d43.108855!4d-89.560236!4m1!3e1"
     }
   },
   {
@@ -493,7 +537,8 @@
     },
     "properties": {
     "Name":"Summit Ridge Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.10363,-89.56589/@43.1036339,-89.5680841,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzEzLjEiTiA4OcKwMzMnNTcuMiJX!3b1!8m2!3d43.10363!4d-89.56589!4m1!3e1"
     }
   },
   {
@@ -504,7 +549,8 @@
     },
     "properties": {
     "Name":"Settler's Prairie Park- Ellington",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.1121,-89.56412/@43.1121039,-89.5663141,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzQzLjYiTiA4OcKwMzMnNTAuOCJX!3b1!8m2!3d43.1121!4d-89.56412!4m1!3e1"
     }
   },
   {
@@ -515,7 +561,8 @@
     },
     "properties": {
     "Name":"Settler's Prairie Park- Bergamot",
-    "Parking Space":"Yes"
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.113777,-89.566291/@43.1137809,-89.5684851,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzQ5LjYiTiA4OcKwMzMnNTguNyJX!3b1!8m2!3d43.113777!4d-89.566291!4m1!3e1"
     }
   },
   {
@@ -526,7 +573,8 @@
     },
     "properties": {
     "Name":"Settler's Prairie Park- Bergamot",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.112339,-89.56728/@43.1123429,-89.5694741,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzQ0LjQiTiA4OcKwMzQnMDIuMiJX!3b1!8m2!3d43.112339!4d-89.56728!4m1!3e1"
     }
   },
   {
@@ -537,7 +585,8 @@
     },
     "properties": {
     "Name":"Bergamot Way",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.115952,-89.565892/@43.1159559,-89.5680861,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzU3LjQiTiA4OcKwMzMnNTcuMiJX!3b1!8m2!3d43.115952!4d-89.565892!4m1!3e1"
     }
   },
   {
@@ -548,7 +597,8 @@
     },
     "properties": {
     "Name":"Sunset Ridge Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.112092,-89.582155/@43.1120959,-89.5843491,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzQzLjUiTiA4OcKwMzQnNTUuOCJX!3b1!8m2!3d43.112092!4d-89.582155!4m1!3e1"
     }
   },
   {
@@ -559,7 +609,8 @@
     },
     "properties": {
     "Name":"Delmara Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.11428,-89.58337/@43.1142839,-89.5855641,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzUxLjQiTiA4OcKwMzUnMDAuMSJX!3b1!8m2!3d43.11428!4d-89.58337!4m1!3e1"
     }
   },
   {
@@ -570,7 +621,8 @@
     },
     "properties": {
     "Name":"Westman Way Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.11457,-89.58724/@43.1145739,-89.5894341,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzUyLjUiTiA4OcKwMzUnMTQuMSJX!3b1!8m2!3d43.11457!4d-89.58724!4m1!3e1"
     }
   },
   {
@@ -581,7 +633,8 @@
     },
     "properties": {
     "Name":"Westman Way Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.115601,-89.59002/@43.1156049,-89.5922141,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzU2LjIiTiA4OcKwMzUnMjQuMSJX!3b1!8m2!3d43.115601!4d-89.59002!4m1!3e1"
     }
   },
   {
@@ -592,7 +645,8 @@
     },
     "properties": {
     "Name":"Toepfer Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.115352,-89.591923/@43.1153559,-89.5941171,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzU1LjMiTiA4OcKwMzUnMzAuOSJX!3b1!8m2!3d43.115352!4d-89.591923!4m1!3e1"
     }
   },
   {
@@ -603,7 +657,8 @@
     },
     "properties": {
     "Name":"Rocky Dell Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.107385,-89.583693/@43.1073889,-89.5858871,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzI2LjYiTiA4OcKwMzUnMDEuMyJX!3b1!8m2!3d43.107385!4d-89.583693!4m1!3e1"
     }
   },
   {
@@ -614,7 +669,8 @@
     },
     "properties": {
     "Name":"Payvery Tr",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.108832,-89.585417/@43.1088359,-89.5876111,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzMxLjgiTiA4OcKwMzUnMDcuNSJX!3b1!8m2!3d43.108832!4d-89.585417!4m1!3e1"
     }
   },
   {
@@ -625,7 +681,8 @@
     },
     "properties": {
     "Name":"Bronner Rd",
-    "Parking Space":"No"
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.116861,-89.575953/@43.1168649,-89.5781471,17z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA3JzAwLjciTiA4OcKwMzQnMzMuNCJX!3b1!8m2!3d43.116861!4d-89.575953!4m1!3e1"
     }
   }
 ]
