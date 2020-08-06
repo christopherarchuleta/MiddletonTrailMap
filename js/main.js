@@ -21,10 +21,10 @@ function setMap(){
 
 
   // Set up tiles and constrain zoom
-  var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m.html?fresh=true&title=copy&access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg', {
+  var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg', {
     attribution: ' © <a href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://www.mapbox.com/gallery/#frank"> Style</a> © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    minZoom: 15,
+    minZoom: 11,
     id: 'cjarchuleta',
     tileSize: 256,
     accessToken: 'pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg'
@@ -33,7 +33,7 @@ function setMap(){
   // Initialize the map center and zoom level
   var mymap = L.map('mapid', {
     layers: tiles
-  }).setView([43.07292, -89.574164], 16);
+  }).setView([43.07292, -89.574164], 14);
 
 
 
@@ -156,7 +156,7 @@ function setMap(){
           // legend.addTo(mymap);
 
   // Create layer groups
-  var coordinatesGroup = L.layerGroup([coordinatesLayer, coordinateLayer]);
+  var coordinatesGroup = L.layerGroup([coordinatesLayer]);
   var parcelsGroup = L.layerGroup([midParLayer, schParLayer]);
   var baseLayers = {
     Basemap: tiles
