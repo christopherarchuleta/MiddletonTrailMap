@@ -35,22 +35,16 @@ function setMap(){
     layers: tiles
   }).setView([43.07292, -89.574164], 16);
 
-  // Parking Icon variable
-  var parking = "<img src='img/Parking-01.png'/>";
-
 
 
   // Function for individualized Popups
   function onEachFeature(feature, layer, parking) {
-    if (feature.properties && feature.properties.Name) {
-      layer.bindPopup(feature.properties.Name);
-    };
-    if (feature.properties && feature.properties.Parking_Space == "Yes") {
-      layer.bindPopup(parking);
-    };
-    if (feature.properties && feature.properties.Directions) {
-      layer.bindPopup("<a href=" + feature.properties.Directions + ">Directions</a></br>" + feature.properties.Name);
+    if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "Yes") {
+      layer.bindPopup(feature.properties.Name + "</br><a href=" + feature.properties.Directions + ">Directions      </a><img src='img/Parking.gif'/>");
     }
+    else {
+      layer.bindPopup(feature.properties.Name + "</br><a href=" + feature.properties.Directions + ">Directions</a>");
+    };
   };
 
 
@@ -147,14 +141,6 @@ function setMap(){
     style: coordinatesStyle
   });
   coordinatesLayer.addTo(mymap);
-
-  var coordinateStyle = {
-    "fillOpacity": "0"
-  }
-  var coordinateLayer = new L.GeoJSON.AJAX("Data/Points/Pioneer Park Coordinatesgeo.json",{
-    style: coordinateStyle
-  });
-  coordinateLayer.addTo(mymap).bindPopup("<a href='https://www.google.com/maps/dir//43.074417,-89.573417/@43.074418,-89.5739642,19z/data=!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzI3LjkiTiA4OcKwMzQnMjQuMyJX!3b1!8m2!3d43.074417!4d-89.573417!4m1!3e1'>Directions</a><br>Pioneer Park/Town Hall");
 
  // Add legend
           // var legend = L.control({position: 'bottomright'});

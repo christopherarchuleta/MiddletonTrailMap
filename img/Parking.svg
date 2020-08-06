@@ -4,12 +4,27 @@
 	 viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#1B449C;}
-	.st1{fill:none;}
-	.st2{fill:#FFFFFF;}
-	.st3{font-family:'Helvetica';}
-	.st4{font-size:21px;}
+	.st1{fill:none;stroke:#231F20;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 </style>
-<rect class="st0" width="17.99" height="17.99"/>
-<rect x="0.01" y="1.46" class="st1" width="17.99" height="16.53"/>
-<text transform="matrix(1 0 0 1 1.9965 16.5557)" class="st2 st3 st4">P</text>
+<rect class="st0" width="18" height="18"/>
+<g>
+	<line class="st1" x1="3.3" y1="17.1" x2="5.5" y2="17.1"/>
+	<line class="st1" x1="3.3" y1="0.9" x2="3.3" y2="17.1"/>
+	<line class="st1" x1="5.5" y1="10.3" x2="5.5" y2="17.1"/>
+	<line class="st1" x1="10.2" y1="10.3" x2="5.5" y2="10.3"/>
+	<line class="st1" x1="10.2" y1="8.4" x2="5.5" y2="8.4"/>
+	<line class="st1" x1="5.5" y1="2.8" x2="5.5" y2="8.4"/>
+	<line class="st1" x1="10.2" y1="2.8" x2="5.5" y2="2.8"/>
+	<line class="st1" x1="10.2" y1="0.9" x2="3.3" y2="0.9"/>
+	<path class="st1" d="M10.2,2.8c0.2,0,0.4,0,0.7,0c0.4,0,0.7,0.1,1.1,0.3c0.2,0.1,0.8,0.5,1,1.2c0.1,0.1,0.1,0.2,0.1,0.4
+		c0.1,0.3,0.2,0.9,0,1.6C13.1,6.6,13,6.9,13,6.9c0,0.1-0.1,0.2-0.2,0.3c-0.2,0.3-0.4,0.5-0.5,0.6C12,8,11.7,8.1,11.5,8.2
+		c-0.2,0.1-0.4,0.1-0.5,0.1c-0.3,0.1-0.5,0.1-0.7,0.1"/>
+	<path class="st1" d="M10.2,0.9c0.5,0,2.7-0.1,4.1,1.5c0.5,0.5,0.7,1.1,0.7,1.1c0,0.1,0.1,0.2,0.1,0.2c0,0.1,0.2,0.5,0.3,1.1
+		c0,0.3,0.1,0.7,0,1.2c-0.1,0.7-0.2,1.3-0.3,1.4c-0.3,0.8-0.7,1.3-0.8,1.4c-0.4,0.5-0.7,0.7-0.8,0.8c-0.1,0.1-0.3,0.2-0.6,0.3
+		c-0.4,0.2-0.6,0.2-0.9,0.3c-0.5,0.1-0.9,0.1-1.1,0.2c-0.3,0-0.6,0-0.8,0"/>
+</g>
+<line class="st2" x1="4.4" y1="0.9" x2="4.4" y2="17.1"/>
+<line class="st2" x1="10.2" y1="9.4" x2="4.4" y2="9.4"/>
+<line class="st2" x1="10.2" y1="1.9" x2="4.4" y2="1.9"/>
 </svg>
