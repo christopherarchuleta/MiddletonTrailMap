@@ -17,11 +17,13 @@ function setMap(){
 
 
   // Set up tiles and constrain zoom
-  var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m.html?fresh=true&title=view&access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg', {
+  var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m/tiles/14/100/100?access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg', {
     attribution: ' © <a href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://www.mapbox.com/gallery/#frank"> Style</a> © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     minZoom: 11,
-    id: 'cjarchuleta',
+    id: 'cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m',
+    tileSize: 512,
+    zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg'
   }).addTo(mymap);
 
