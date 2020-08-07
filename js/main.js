@@ -12,20 +12,21 @@ function setMap(){
   // const width = window.innerWidth;
   // const height = window.innerHeight
 
+  L.mapbox.accessToken = 'pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg';
   // Initialize the map center and zoom level
   var mymap = L.map('map').setView([43.07292, -89.574164], 14);
 
 
   // Set up tiles and constrain zoom
-  var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m/tiles/14/100/100?access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg', {
+  var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m/tiles/{z}/{x}/{y}?access_token=' + L.mapbox.accessToken, {
     attribution: ' © <a href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://www.mapbox.com/gallery/#frank"> Style</a> © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     minZoom: 11,
     id: 'cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m',
     tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg'
-  }).addTo(mymap);
+    zoomOffset: -1
+  });
+  tiles.addTo(mymap);
 
 
 
