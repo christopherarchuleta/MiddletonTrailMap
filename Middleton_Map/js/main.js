@@ -11,7 +11,7 @@ function setMap(){
 
 
   // Initialize the map center and zoom level
-  // var mymap = L.map('mapid', {
+  // var mymap = L.map('map', {
   //   layers:
   // }).setView([43.07292, -89.574164], 16);
 
@@ -28,7 +28,7 @@ function setMap(){
   });
 
   // Initialize the map center and zoom level
-  var mymap = L.map('mapid', {
+  var mymap = L.map('map', {
     layers: tiles
   }).setView([43.07292, -89.574164], 16);
 
