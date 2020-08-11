@@ -50,8 +50,8 @@ function setMap(){
   // Boundary styling
   var boundaryStyle = {
     "color": "#000000",
-    "weight": "1",
-    "fillColor": "#ffffff",
+    "weight": "0",
+    "fillColor": "#e6e6e6",
     "fillOpacity": "1"
   };
   var boundaryLayer = new L.GeoJSON.AJAX("Data/Boundary/Boundarygeo.json",{
