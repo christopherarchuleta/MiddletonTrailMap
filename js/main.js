@@ -16,13 +16,13 @@ function setMap(){
   // Initialize the map center and zoom level
   var mymap = L.map('map').setView([43.07292, -89.574164], 14);
 
-
+// https://api.mapbox.com/styles/v1/cjarchuleta/ckdqb5kti016e19l7klhs8i2e.html?fresh=true&title=view&access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg
   // Set up tiles and constrain zoom
-  var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m/tiles/{z}/{x}/{y}?access_token=' + L.mapbox.accessToken, {
+  var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckdqb5kti016e19l7klhs8i2e/tiles/{z}/{x}/{y}?access_token=' + L.mapbox.accessToken, {
     attribution: ' © <a href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://www.mapbox.com/gallery/#frank"> Style</a> © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     minZoom: 11,
-    id: 'cjarchuleta/ckddn2c3i2o611iqhhhpqgp7m',
+    id: 'cjarchuleta/ckdqb5kti016e19l7klhs8i2e',
     tileSize: 512,
     zoomOffset: -1
   });
@@ -95,14 +95,14 @@ function setMap(){
   parksLayer.addTo(mymap);
 
   // Road styling
-  var roadsStyle = {
-    "color": "#000000",
-    "weight": "1"
-  };
-  var roadsLayer = new L.GeoJSON.AJAX("Data/Middleton_Roads/Middleton_Select_Roadsgeo.json",{
-    style: roadsStyle
-  });
-  roadsLayer.addTo(mymap);
+            // var roadsStyle = {
+            //   "color": "#000000",
+            //   "weight": "1"
+            // };
+            // var roadsLayer = new L.GeoJSON.AJAX("Data/Middleton_Roads/Middleton_Select_Roadsgeo.json",{
+            //   style: roadsStyle
+            // });
+            // roadsLayer.addTo(mymap);
 
   // Trail styling
   var trailsStyle = {
