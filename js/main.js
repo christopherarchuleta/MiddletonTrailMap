@@ -118,10 +118,9 @@ function setMap(){
 
   //Trailhead styling
   var coordinatesStyle = {
-    "fillOpacity": "0",
-    "color": "red",
+    "marker-color": "#000000"
   };
-  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesNewgeo.json",{
+  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesBlackgeo.json",{
     // Pass function called onEachFeature to trailhead coordinate layer for individualized name and directions
     onEachFeature : onEachFeature,
     style: coordinatesStyle
