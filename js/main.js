@@ -19,7 +19,7 @@ function setMap(){
 // https://api.mapbox.com/styles/v1/cjarchuleta/ckdqb5kti016e19l7klhs8i2e.html?fresh=true&title=view&access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg
   // Set up tiles and constrain zoom
   var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/cjarchuleta/ckdqb5kti016e19l7klhs8i2e/tiles/{z}/{x}/{y}?access_token=' + L.mapbox.accessToken, {
-    attribution: ' © <a href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://www.mapbox.com/gallery/#frank"> Style</a> © <a href="https://www.mapbox.com/">Mapbox</a>',
+    attribution: ' © <a href="https://www.openstreetmap.org/">OpenStreetMap</a><a href="https://api.mapbox.com/styles/v1/cjarchuleta/ckdqb5kti016e19l7klhs8i2e.html?fresh=true&title=view&access_token=pk.eyJ1IjoiY2phcmNodWxldGEiLCJhIjoiY2syYW9pcTAyMWV5ejNtbzZhM25zNnpsdSJ9.7Gl9zzKB40HnoFIWBW-Tvg#13.22/43.07311/-89.57663"> Style</a> © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     minZoom: 11,
     id: 'cjarchuleta/ckdqb5kti016e19l7klhs8i2e',
@@ -48,23 +48,24 @@ function setMap(){
   // Add GeoJSON layers to map
 
   // Boundary styling
-  var boundaryStyle = {
-    "color": "#000000",
-    "weight": "0",
-    "fillColor": "#e6e6e6",
-    "fillOpacity": "1"
-  };
-  var boundaryLayer = new L.GeoJSON.AJAX("Data/Boundary/Boundarygeo.json",{
-    style: boundaryStyle
-  });
-  boundaryLayer.addTo(mymap);
+          // var boundaryStyle = {
+          //   "color": "#000000",
+          //   "weight": "0",
+          //   "fillColor": "#e6e6e6",
+          //   "fillOpacity": "1"
+          // };
+          // var boundaryLayer = new L.GeoJSON.AJAX("Data/Boundary/Boundarygeo.json",{
+          //   style: boundaryStyle
+          // });
+          // boundaryLayer.addTo(mymap);
 
   // Middleton parcel styling
   var midParStyle = {
+    "weight": "0.25",
     "color": "#000000",
     "fillColor": "#ffdda6",
     "fillOpacity": "0.5",
-    "weight": "1"
+    "weight": "0.5"
   };
   var midParLayer = new L.GeoJSON.AJAX("Data/Parcels/middleton_parcels_reprojgeo.json",{
     style: midParStyle
@@ -73,10 +74,11 @@ function setMap(){
 
   // School-owned parcels styling
   var schParStyle = {
+    "weight": "0.25",
     "color": "#000000",
-    "fillColor": "#fec44f",
+    "fillColor": "#ec7014",
     "fillOpacity": "0.5",
-    "weight": "1"
+    "weight": "0.5"
   };
   var schParLayer = new L.GeoJSON.AJAX("Data/Parcels/school_parcels_reprojgeo.json",{
     style: schParStyle
@@ -84,9 +86,9 @@ function setMap(){
 
   // Parks styling
   var parkStyle = {
-    "weight": "1",
+    "weight": "0.5",
     "color": "#000000",
-    "fillColor": "#e0ffba",
+    "fillColor": "#d9f0a3",
     "fillOpacity": "1"
   };
   var parksLayer = new L.GeoJSON.AJAX("Data/Trails/parks_reprojgeo.json",{
@@ -106,7 +108,8 @@ function setMap(){
 
   // Trail styling
   var trailsStyle = {
-    "color": "#34e03c"
+    "weight": "0.75",
+    "color": "#000000"
   };
   var trailsLayer = new L.GeoJSON.AJAX("Data/Trails/exist_imp_ease_reprojgeo.json",{
     style: trailsStyle
@@ -147,10 +150,11 @@ function setMap(){
   var overlays = {
     Trailheads: coordinatesGroup,
     Parcels: parcelsGroup,
-    Trails: trailsLayer
+    Trails: trailsLayer,
+    Parks: parksLayer
   };
   // Create layer control/pseudo-legend
-  L.control.layers(baseLayers, overlays).addTo(mymap);
+  L.control.layers(null, overlays).addTo(mymap);
 
 
   // Add park label
