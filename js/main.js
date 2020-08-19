@@ -34,7 +34,7 @@ function setMap(){
   // Function for individualized Popups
   function onEachFeature(feature, layer, parking) {
     if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "Yes") {
-      layer.bindPopup(feature.properties.Name + "</br><a href=" + feature.properties.Directions + ">Directions      </a><img src='img/Parking.gif'/>");
+      layer.bindPopup("<h2>" + feature.properties.Name + "</h2>" + "</br><a href=" + feature.properties.Directions + ">Directions      </a><img src='img/Parking.gif'/>");
     }
     else {
       layer.bindPopup(feature.properties.Name + "</br><a href=" + feature.properties.Directions + ">Directions</a>");

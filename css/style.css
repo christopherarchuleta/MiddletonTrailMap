@@ -33,6 +33,10 @@ html, body, #map {
   width: 100vw;
 }
 
+h2 {
+  line-height: 50%;
+}
+
 
             /* LEGEND STYLES */
 .legend {
@@ -66,6 +70,13 @@ html, body, #map {
   border: transparent;
   box-shadow: none;
   transform: rotate(45deg);
+}
+
+
+          /* Popup Styling */
+.leaflet-popup-content {
+  padding: 5px;
+  margin: 5px;
 }
 
 
