@@ -33,11 +33,14 @@ function setMap(){
 
   // Function for individualized Popups
   function onEachFeature(feature, layer, parking) {
-    if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "Yes") {
-      layer.bindPopup("<h2>" + feature.properties.Name + "</h2>" + "</br><a href=" + feature.properties.Directions + ">Directions      </a><img src='img/Parking.gif'/>");
+    if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "Yes" && feature.properties.Webpage !== "None") {
+      layer.bindPopup("<h2><a href=" + feature.properties.Webpage + " style='color: #0000ee;line-height: 10%'>" + feature.properties.Name + "</a></h2>" + "<a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions      </a><img src='img/Parking.gif'/>");
+    }
+    else if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "Yes" && feature.properties.Webpage == "None") {
+      layer.bindPopup(feature.properties.Name + "</br><a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions      </a><img src='img/Parking.gif'/>");
     }
     else {
-      layer.bindPopup(feature.properties.Name + "</br><a href=" + feature.properties.Directions + ">Directions</a>");
+      layer.bindPopup(feature.properties.Name + "</br><a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions</a>");
     };
   };
 
@@ -120,7 +123,7 @@ function setMap(){
   var coordinatesStyle = {
     "marker-color": "#000000"
   };
-  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesBlackgeo.json",{
+  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesWebgeo.json",{
     // Pass function called onEachFeature to trailhead coordinate layer for individualized name and directions
     onEachFeature : onEachFeature,
     style: coordinatesStyle
