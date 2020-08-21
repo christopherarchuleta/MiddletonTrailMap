@@ -73,7 +73,8 @@ function setMap(){
   var midParLayer = new L.GeoJSON.AJAX("Data/Parcels/middleton_parcels_reprojgeo.json",{
     style: midParStyle
   });
-  midParLayer.addTo(mymap);
+  // The layers are not added to map at this point so that the map initially shows only the basemap
+  // midParLayer.addTo(mymap);
 
   // School-owned parcels styling
   var schParStyle = {
@@ -85,7 +86,8 @@ function setMap(){
   };
   var schParLayer = new L.GeoJSON.AJAX("Data/Parcels/school_parcels_reprojgeo.json",{
     style: schParStyle
-  })
+  });
+  // schParLayer.addTo(mymap);
 
   // Parks styling
   var parkStyle = {
@@ -97,7 +99,7 @@ function setMap(){
   var parksLayer = new L.GeoJSON.AJAX("Data/Trails/parks_reprojgeo.json",{
     style: parkStyle
   });
-  parksLayer.addTo(mymap);
+  // parksLayer.addTo(mymap);
 
   // Road styling
             // var roadsStyle = {
@@ -117,7 +119,7 @@ function setMap(){
   var trailsLayer = new L.GeoJSON.AJAX("Data/Trails/exist_imp_ease_reprojgeo.json",{
     style: trailsStyle
   });
-  trailsLayer.addTo(mymap);
+  // trailsLayer.addTo(mymap);
 
   //Trailhead styling
   var coordinatesStyle = {
@@ -128,7 +130,7 @@ function setMap(){
     onEachFeature : onEachFeature,
     style: coordinatesStyle
   });
-  coordinatesLayer.addTo(mymap);
+  // coordinatesLayer.addTo(mymap);
 
  // Add legend
           // var legend = L.control({position: 'bottomright'});
