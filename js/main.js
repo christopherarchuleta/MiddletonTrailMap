@@ -32,12 +32,12 @@ function setMap(){
 
 
   // Function for individualized Popups
-  function onEachFeature(feature, layer, parking) {
+  function onEachFeature(feature, layer) {
     if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "Yes" && feature.properties.Webpage !== "None") {
       layer.bindPopup("<h2><a href=" + feature.properties.Webpage + " style='color: #0000ee;line-height: 10%'>" + feature.properties.Name + "</a></h2>" + "<a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions      </a><img src='img/Parking.gif'/>");
     }
     else if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "No" && feature.properties.Webpage !== "None") {
-      latyer.bindPopup("<h2><a href=" + feature.properties.Webpage + " style='color: #0000ee;line-height: 10%'>" + feature.properties.Name + "</a></h2>" + "<a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions</a>")
+      layer.bindPopup("<h2><a href=" + feature.properties.Webpage + " style='color: #0000ee;line-height: 10%'>" + feature.properties.Name + "</a></h2>" + "<a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions</a>");
     }
     else if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "Yes" && feature.properties.Webpage == "None") {
       layer.bindPopup(feature.properties.Name + "</br><a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions      </a><img src='img/Parking.gif'/>");
