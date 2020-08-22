@@ -798,6 +798,202 @@
     "Webpage":"None",
     "FIELD7":""
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.588143,43.06958 ]
+    },
+    "properties": {
+    "Name":"Summerfield Dr",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.06958,-89.588143/@43.06958,-89.5893789,151m/data=!3m1!1e3!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA0JzEwLjUiTiA4OcKwMzUnMTcuMyJX!3b1!8m2!3d43.06958!4d-89.588143!4m1!3e3",
+    "Webpage":"None",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.591326,43.065185 ]
+    },
+    "properties": {
+    "Name":"Almor Dr",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//7917-7769+Almor+Dr,+Verona,+WI+53593/@43.0651924,-89.5918184,118m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x8807a4522acec91b:0xf4e18297c0ad30f3!2m2!1d-89.5921175!2d43.0649094!3e3",
+    "Webpage":"None",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.584647,43.063742 ]
+    },
+    "properties": {
+    "Name":"Welcome Dr",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.063742,-89.584647/@43.063742,-89.5851942,101m/data=!3m1!1e3!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzQ5LjUiTiA4OcKwMzUnMDQuNyJX!3b1!8m2!3d43.063742!4d-89.584647!4m1!3e3",
+    "Webpage":"None",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.583963,43.061019 ]
+    },
+    "properties": {
+    "Name":"Welcome Dr",
+    "Parking_Space":"Yes",
+    "Directions":"https://www.google.com/maps/dir//43.061019,-89.583963/@43.061019,-89.5852392,236m/data=!3m1!1e3!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzM5LjciTiA4OcKwMzUnMDIuMyJX!3b1!8m2!3d43.061019!4d-89.583963!4m1!3e3",
+    "Webpage":"None",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.585564,43.060374 ]
+    },
+    "properties": {
+    "Name":"Welcome Dr",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.060374,-89.585564/@43.060374,-89.5861112,101m/data=!3m1!1e3!4m11!1m8!3m7!1s0x0:0x0!2zNDPCsDAzJzM3LjQiTiA4OcKwMzUnMDguMCJX!3b1!7e2!8m2!3d43.0603739!4d-89.5855645!4m1!3e3",
+    "Webpage":"None",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.588738,43.054883 ]
+    },
+    "properties": {
+    "Name":"Vickiann St",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.054883,-89.588738/@43.054883,-89.5909267,404m/data=!3m1!1e3!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzE3LjYiTiA4OcKwMzUnMTkuNSJX!3b1!8m2!3d43.054883!4d-89.588738!4m1!3e3",
+    "Webpage":"None",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.579235,43.045541 ]
+    },
+    "properties": {
+    "Name":"Valley View Rd",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.054883,-89.588738/@43.0455058,-89.5793527,57m/data=!3m1!1e3!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzE3LjYiTiA4OcKwMzUnMTkuNSJX!3b1!8m2!3d43.054883!4d-89.588738!4m1!3e3",
+    "Webpage":"None",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.566296,43.093732 ]
+    },
+    "properties": {
+    "Name":"Willow Ln",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.093732,-89.566296/@43.093732,-89.5668432,101m/data=!3m1!1e3!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA1JzM3LjQiTiA4OcKwMzMnNTguNyJX!3b1!8m2!3d43.093732!4d-89.566296!4m1!3e3",
+    "Webpage":"None",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.585319,43.055091 ]
+    },
+    "properties": {
+    "Name":"Kempfer Ln",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.055091,-89.585319/@43.055091,-89.5859955,125m/data=!3m1!1e3!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDAzJzE4LjMiTiA4OcKwMzUnMDcuMiJX!3b1!8m2!3d43.055091!4d-89.585319!4m1!3e3",
+    "Webpage":"https://town.middleton.wi.us/index.asp?SEC=CA102B3D-5C8E-4FEC-8A29-0C90F2908CC0&DE=2A861DE7-AED6-48C4-86C1-64B70953268D",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.515965,43.118673 ]
+    },
+    "properties": {
+    "Name":"Murphy Park",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.118673,-89.515965/@43.118673,-89.5166163,120m/data=!3m1!1e3!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA3JzA3LjIiTiA4OcKwMzAnNTcuNSJX!3b1!8m2!3d43.118673!4d-89.515965!4m1!3e3",
+    "Webpage":"https://town.middleton.wi.us/index.asp?SEC=CA102B3D-5C8E-4FEC-8A29-0C90F2908CC0&DE=D03AB028-378E-4048-8E7D-BC9840BAAE62",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.567898,43.103412 ]
+    },
+    "properties": {
+    "Name":"Summit Ridge Park",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.103412,-89.567898/@43.103412,-89.5685123,113m/data=!3m1!1e3!4m10!1m7!3m6!1s0x0:0x0!2zNDPCsDA2JzEyLjMiTiA4OcKwMzQnMDQuNCJX!3b1!8m2!3d43.103412!4d-89.567898!4m1!3e3",
+    "Webpage":"https://town.middleton.wi.us/index.asp?SEC=CA102B3D-5C8E-4FEC-8A29-0C90F2908CC0&DE=F7C8A0F0-D14A-4C1E-8412-19EB983A90A3",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.588518,43.053066 ]
+    },
+    "properties": {
+    "Name":"Vickiann Park",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.053066,-89.588518/@43.053066,-89.5891308,113m/data=!3m1!1e3!4m11!1m8!3m7!1s0x0:0x0!2zNDPCsDAzJzExLjAiTiA4OcKwMzUnMTguNyJX!3b1!7e2!8m2!3d43.0530659!4d-89.5885179!4m1!3e3",
+    "Webpage":"https://town.middleton.wi.us/index.asp?SEC=CA102B3D-5C8E-4FEC-8A29-0C90F2908CC0&DE=8FBB647C-A96F-49AE-9C99-FC3315940FB5",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.578568,43.114423 ]
+    },
+    "properties": {
+    "Name":"Daybreak Ct",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.114423,-89.578568/@43.114423,-89.5791152,101m/data=!3m1!1e3!4m11!1m8!3m7!1s0x0:0x0!2zNDPCsDA2JzUxLjkiTiA4OcKwMzQnNDIuOCJX!3b1!7e2!8m2!3d43.1144226!4d-89.5785683!4m1!3e3",
+    "Webpage":"None",
+    "FIELD7":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.579034,43.114677 ]
+    },
+    "properties": {
+    "Name":"Vosen Memorial",
+    "Parking_Space":"No",
+    "Directions":"https://www.google.com/maps/dir//43.114677,-89.579034/@43.114677,-89.5795812,101m/data=!3m1!1e3!4m11!1m8!3m7!1s0x0:0x0!2zNDPCsDA2JzUyLjgiTiA4OcKwMzQnNDQuNSJX!3b1!7e2!8m2!3d43.1146771!4d-89.5790342!4m1!3e3",
+    "Webpage":"https://town.middleton.wi.us/index.asp?SEC=CA102B3D-5C8E-4FEC-8A29-0C90F2908CC0&DE=D08EAD75-3000-425E-89C3-3D67D1D3B767",
+    "FIELD7":""
+    }
   }
 ]
 }

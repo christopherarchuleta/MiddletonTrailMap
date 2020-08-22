@@ -36,6 +36,9 @@ function setMap(){
     if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "Yes" && feature.properties.Webpage !== "None") {
       layer.bindPopup("<h2><a href=" + feature.properties.Webpage + " style='color: #0000ee;line-height: 10%'>" + feature.properties.Name + "</a></h2>" + "<a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions      </a><img src='img/Parking.gif'/>");
     }
+    else if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "No" && feature.properties.Webpage !== "None") {
+      latyer.bindPopup("<h2><a href=" + feature.properties.Webpage + " style='color: #0000ee;line-height: 10%'>" + feature.properties.Name + "</a></h2>" + "<a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions</a>")
+    }
     else if (feature.properties && feature.properties.Directions && feature.properties.Parking_Space == "Yes" && feature.properties.Webpage == "None") {
       layer.bindPopup(feature.properties.Name + "</br><a href=" + feature.properties.Directions + " style='color: #0000ee'>Directions      </a><img src='img/Parking.gif'/>");
     }
@@ -125,7 +128,7 @@ function setMap(){
   var coordinatesStyle = {
     "marker-color": "#000000"
   };
-  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesWebgeo.json",{
+  var coordinatesLayer = new L.GeoJSON.AJAX("Data/Points/MiddletonCoordinatesParksgeo.json",{
     // Pass function called onEachFeature to trailhead coordinate layer for individualized name and directions
     onEachFeature : onEachFeature,
     style: coordinatesStyle
