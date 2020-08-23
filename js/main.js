@@ -124,6 +124,16 @@ function setMap(){
   });
   // trailsLayer.addTo(mymap);
 
+  // Dog trail styling
+  var dogTrailStyle = {
+    "weight": "0.75",
+    "color": "#f46d43"
+  };
+  var dogTrailLayer = new L.GeoJSON.AJAX("Data/Trails/DogTrailsReprojgeo.json",{
+    style: dogTrailStyle
+  });
+  // trailsLayer.addTo(mymap);
+
   //Trailhead styling
   var coordinatesStyle = {
     "marker-color": "#000000"
@@ -148,16 +158,33 @@ function setMap(){
           //
           // legend.addTo(mymap);
 
+
+
+  // Create trail layer legend
+  var legend = L.control({position: 'bottomright'});
+
+  legend.onAdd = function (mymap) {
+
+    var div = L.DomUtil.create('div', 'info legend');
+
+    div.innerHTML += 'Legend';
+
+    return div;
+  };
+
+  legend.addTo(mymap);
+
   // Create layer groups
   var coordinatesGroup = L.layerGroup([coordinatesLayer]);
   var parcelsGroup = L.layerGroup([midParLayer, schParLayer]);
+  var trailsGroup = L.layerGroup([trailsLayer, dogTrailLayer]);
   var baseLayers = {
     Basemap: tiles
   };
   var overlays = {
     Trailheads: coordinatesGroup,
     Parcels: parcelsGroup,
-    Trails: trailsLayer,
+    Trails: trailsGroup,
     Parks: parksLayer
   };
   // Create layer control/pseudo-legend
