@@ -116,7 +116,7 @@ function setMap(){
 
   // Trail styling
   var trailsStyle = {
-    "weight": "0.75",
+    "weight": "1",
     "color": "#000000"
   };
   var trailsLayer = new L.GeoJSON.AJAX("Data/Trails/exist_imp_ease_reprojgeo.json",{
@@ -126,7 +126,7 @@ function setMap(){
 
   // Dog trail styling
   var dogTrailStyle = {
-    "weight": "0.75",
+    "weight": "1",
     "color": "#f46d43"
   };
   var dogTrailLayer = new L.GeoJSON.AJAX("Data/Trails/DogTrailsReprojgeo.json",{
@@ -167,7 +167,8 @@ function setMap(){
 
     var div = L.DomUtil.create('div', 'info legend');
 
-    div.innerHTML += 'Legend';
+    div.innerHTML +=
+        '<i style="background:#000000"></i> Trails</br><i style="background:#f46d43"></i> Dog Trails'
 
     return div;
   };
