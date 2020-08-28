@@ -114,6 +114,7 @@ function setMap(){
             // });
             // roadsLayer.addTo(mymap);
 
+
   // Trail styling
   var trailsStyle = {
     "weight": "1",
@@ -161,7 +162,7 @@ function setMap(){
 
 
   // Create trail layer legend
-  var legend = L.control({position: 'bottomright'});
+  var legend = L.control({position: 'bottomleft'});
 
   legend.onAdd = function (mymap) {
 
@@ -189,7 +190,7 @@ function setMap(){
     Parks: parksLayer
   };
   // Create layer control/pseudo-legend
-  L.control.layers(null, overlays).addTo(mymap);
+  var toggle = L.control.layers(null, overlays, {position: 'bottomright'}).addTo(mymap);
 
 
   // Add park label
